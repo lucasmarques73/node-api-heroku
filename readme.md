@@ -3,9 +3,14 @@
 ## Dependencies
 
 - express
-- body-parser
 - supertest
 - jest
+
+## Install Dependencies
+
+```shell
+npm install
+```
 
 ## Url Heroku
 
@@ -13,7 +18,7 @@
 
 ## Running project
 
-```sh
+```shell
 npm start
 ```
 
@@ -21,6 +26,6 @@ The project will be available in `http://localhost:3000`
 
 ## Running testes
 
-```sh
+```shell
 npm test
 ```
