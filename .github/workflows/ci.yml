@@ -18,3 +18,5 @@ jobs:
         run: npm ci
       - name: Run tests
         run: npm run test:ci
+      - name: Execute after tests
+        run: echo OK
