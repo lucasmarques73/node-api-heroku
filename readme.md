@@ -41,4 +41,4 @@ npm run test:ci
 
 ## License
 
-[MIT](https://github.com/lucasmarques73/node-api-heroku/blob/master/LICENSE)
+[MIT License](https://github.com/lucasmarques73/node-api-heroku/blob/master/LICENSE)
