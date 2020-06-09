@@ -15,7 +15,7 @@ describe("GET / ", () => {
 describe("GET /health ", () => {
   test("It should respond with an Healthy", async () => {
     const response = await request(app).get("/health");
-    expect(response.text).toEqual("Health");
+    expect(response.text).toEqual("Healthy");
     expect(response.statusCode).toBe(200);
   });
 });
