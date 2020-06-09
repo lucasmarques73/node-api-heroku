@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  install_dependencies:
+  tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,22 +16,5 @@ jobs:
           node-version: "12.x"
       - name: Install dependencies
         run: npm ci
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: path
-          path: ./
-  api_tests:
-    runs-on: ubuntu-latest
-    needs: install_dependencies
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v1
-        with:
-          name: path
-      - name: Use Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: "12.x"
       - name: Run tests
         run: npm run test:ci
