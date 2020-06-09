@@ -24,8 +24,14 @@ npm start
 
 The project will be available in `http://localhost:3000`
 
-## Running testes
+## Running tests
 
 ```shell
 npm test
+```
+
+## Running tests to generate covarage
+
+```shell
+npm run test:ci
 ```
