@@ -1,4 +1,4 @@
-name: Continous Integration and Continous delivery
+name: Pipeline
 
 on:
   push:
