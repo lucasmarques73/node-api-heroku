@@ -9,6 +9,7 @@ jobs:
   install_dependencies:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - name: Node image
         uses: docker://node:lts-alpine
       - name: Install Dependencies
