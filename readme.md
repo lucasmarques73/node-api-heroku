@@ -1,6 +1,7 @@
 # Node Api deployed in Heroku
 
 ![Pipeline](https://github.com/lucasmarques73/node-api-heroku/workflows/Pipeline/badge.svg)
+[![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
 ## Dependencies
 
@@ -37,3 +38,7 @@ npm test
 ```shell
 npm run test:ci
 ```
+
+## License
+
+[MIT](https://github.com/lucasmarques73/node-api-heroku/blob/master/LICENSE)
