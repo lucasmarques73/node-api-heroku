@@ -8,6 +8,7 @@ on:
 jobs:
   install_dependencies:
     steps:
+      - name: Node image
         uses: docker://node:lts-alpine
       - name: Install Dependencies
         run: npm install
