@@ -15,4 +15,4 @@ jobs:
         with:
           node-version: "12.x"
       - name: Install dependencies
-        run: npm bci
+        run: npm ci
