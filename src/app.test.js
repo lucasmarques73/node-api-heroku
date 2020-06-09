@@ -20,6 +20,14 @@ describe("GET /health ", () => {
   });
 });
 
+describe("GET /testDeploy ", () => {
+  test("It should respond with an Healthy", async () => {
+    const response = await request(app).get("/testDeploy");
+    expect(response.text).toEqual("Healthy");
+    expect(response.statusCode).toBe(200);
+  });
+});
+
 describe("GET /users ", () => {
   test("It should respond with an array of users", async () => {
     const response = await request(app).get("/users");
