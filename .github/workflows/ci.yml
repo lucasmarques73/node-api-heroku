@@ -1,4 +1,4 @@
-name: CI
+name: Continous Integration and Continous delivery
 
 on:
   push:
@@ -18,5 +18,8 @@ jobs:
         run: npm ci
       - name: Run tests
         run: npm run test:ci
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
       - name: Execute after tests
         run: echo OK
