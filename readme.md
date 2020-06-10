@@ -1,6 +1,7 @@
 # Node Api deployed in Heroku
 
 ![Pipeline](https://github.com/lucasmarques73/node-api-heroku/workflows/Pipeline/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/lucasmarques73/node-api-heroku/badge.svg)](https://coveralls.io/github/lucasmarques73/node-api-heroku)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
 ## Dependencies
