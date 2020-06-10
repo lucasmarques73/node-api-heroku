@@ -36,10 +36,3 @@ jobs:
           ./cc-test-reporter before-build 
           npm run test:ci
           ./cc-test-reporter after-build
-  deploy:
-    runs-on: ubuntu-latest
-    needs: tests
-    if: github.ref == 'refs/heads/master'
-    steps:
-      - name: Execute after tests
-        run: echo
