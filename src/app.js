@@ -11,7 +11,7 @@ app.get("/users", (_, res) => res.send(users));
 app.get("/users/:id", (req, res) => {
   const user = users.find((element) => element.id === Number(req.params.id));
 
-  if (typeof user === "undefined") return res.sendStatus(404);
+  if (user === undefined) return res.sendStatus(404);
 
   return res.send(user);
 });
